@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Portfólio de Fotografia - Luana Furtado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um site de portfólio fotográfico moderno e minimalista, desenvolvido para destacar as fotografias de Luana Furtado.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Design Minimalista:** Foco total nas imagens sem elementos textuais desnecessários
+- **Galeria Interativa:** Exibição dinâmica das fotografias com carrosséis e efeitos de transição
+- **Layout Responsivo:** Experiência perfeita em qualquer dispositivo
+- **Animações Modernas:** Transições suaves e efeitos de hover contemporâneos
+- **Tipografia Elegante:** Nome estilizado com posicionamento sofisticado
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React com TypeScript
+- Styled Components para estilização
+- Framer Motion para animações
+- Design responsivo para todos os tamanhos de tela
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+```
+src/
+  ├── components/          # Componentes React reutilizáveis
+  │   ├── Carousel.tsx     # Componente de carrossel para imagens em destaque
+  │   ├── Gallery.tsx      # Galeria interativa de fotos
+  │   ├── Header.tsx       # Cabeçalho com nome estilizado
+  │   └── Layout.tsx       # Layout principal da aplicação
+  ├── data/
+  │   └── sampleData.ts    # Dados de amostra das fotografias
+  ├── types/
+  │   └── index.ts         # Tipos TypeScript para o projeto
+  ├── App.tsx              # Componente principal
+  ├── App.css              # Estilos globais CSS
+  └── index.tsx            # Ponto de entrada da aplicação
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Executando o Projeto
 
-### `npm run build`
+1. Clone o repositório:
+```
+git clone [URL_DO_REPOSITORIO]
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instale as dependências:
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Execute o projeto:
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
-### `npm run eject`
+## Personalização
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para personalizar o portfólio com suas próprias fotografias, substitua os dados de amostra em `src/data/sampleData.ts` com suas próprias imagens.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Todos os direitos reservados © Luana Furtado
