@@ -18,14 +18,18 @@
     "react-router-dom": "^7.4.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.16",
-    "typescript": "^5.8.2",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
+  },
+  "resolutions": {
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
